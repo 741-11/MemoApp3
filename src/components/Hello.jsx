@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { clickProps } from 'react-native-web/dist/cjs/modules/forwardedProps';
+// import { clickProps } from 'react-native-web/dist/cjs/modules/forwardedProps';
 import { string, bool, shape } from 'prop-types';
 
 function Hello(props) {
@@ -21,8 +21,8 @@ Hello.propTypes = {
 };
 
 Hello.defaultProps = {
-    bang: false,
-    style: null,
+  bang: false,
+  style: null,
 };
 
 const styles = StyleSheet.create({
